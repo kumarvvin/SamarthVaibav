@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body{
+            color:rgb(83, 43, 226) ;
+            background-color: rgb(80, 255, 188);
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        nav ul{
+        background-color:rgb(83, 43, 226) ;
+        color:white;
+        border-style: solid;
+        border-color:rgb(83, 43, 226);
+        border-width: 2px;
+        padding: 10px;
+        border-radius: 10px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+        }
+        nav ul li a{
+        text-decoration: none;
+        color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./about_me.html">About me</a></li>
+                <li><a href="./how_to_play.html">How to play chess</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./resgristation.html">Regristration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h3>Login Page</h3>
+    <h4>Instructions:<br> Type username and password</h4>
+    <form>
+<label for="username">Username:
+    <input type="text" id="username" name = "username">
+</label>
+<br> <br>
+<label for="password">Password:
+<input type="password" id="password" name="password">
+</label>
+<label for = "selector">
+    <p>Select your age</p>
+    <select>
+    <option>4-7</option>
+    <option>8-13</option>
+    <option>14-18</option>
+    <option>19-45</option>
+    <option>46+</option>
+    </select>
+</label>
+<br> <br>
+<button type ="submit">Submit</button> 
+<button type="reset">Reset</button>
+    </form>
+</body>    
+</html>
+  

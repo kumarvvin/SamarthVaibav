@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Registration page</title>
+     <style>
+        body{
+            color:rgb(83, 43, 226) ;
+            background-color: rgb(80, 255, 188);
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        nav ul{
+        background-color:rgb(83, 43, 226) ;
+        color:white;
+        border-style: solid;
+        border-color:rgb(83, 43, 226);
+        border-width: 2px;
+        padding: 10px;
+        border-radius: 10px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+        }
+        nav ul li a{
+        text-decoration: none;
+        color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./about_me.html">About me</a></li>
+                <li><a href="./how_to_play.html">How to play chess</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./resgristation.html">Regristration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+        <h2>Simple registration page.</h2>
+        <p>Fill in the details below.</p>
+        <form>
+        <label for = "firstname">First Name:
+        <input type = "text" id = "firstname" name = "firstname">
+        </label>
+        <br> <br>
+        <label for = "lastname">Last Name:
+        <input type = "text" id = "lastname" name = "lastname">
+        </label>
+        <br> <br>
+        <label for = "phonenumber" >Phone Number:
+          <input type="tel" id = "phonenumber" name = "phonenumber">
+          <br> <br> 
+        </label>
+        <label for = "password">Password:
+            <input type="password" id = "password" name = "password">
+        </label>
+        <br> <br>
+        <label for = 'email'>Email Adress:
+            <input type="email" id="email" name="email">
+        </label>
+        <br> <br>
+        <p>Pick Your Gender.</p>
+        <label for = "Male">
+            Male
+            <input type = "radio" id = "Male" name = "gender" checked>
+        </label>
+        <label for = "Female">
+            Female
+            <input type = "radio" id = "Female" name = "gender">
+        </label>
+        <br> <br>
+        <label for = "feedback">Write some feedback:
+            <textarea id = "feedback" name = "feedback" rows="10
+            " cols="30"></textarea>
+        </label>
+        <br> <br>
+        <button type="submit">Submit</button>
+    </form>
+    </body>    
+</html>
+
